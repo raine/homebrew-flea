@@ -1,5 +1,5 @@
 class Flea < Formula
-  desc "Deterministic CLI for Tori.fi listing workflows"
+  desc "Search, create, and manage Tori.fi listings with coding agents"
   homepage "https://github.com/raine/flea"
   version "0.1.0"
   license "MIT"
