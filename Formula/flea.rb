@@ -29,6 +29,6 @@ class Flea < Formula
   end
 
   test do
-    assert_match "Manage Tori.fi listing workflows", shell_output("#{bin}/flea --help")
+    assert_match "Flea manages Tori.fi", shell_output("#{bin}/flea --help")
   end
 end
