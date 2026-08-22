@@ -1,26 +1,26 @@
 class Flea < Formula
   desc "Search, create, and manage Tori.fi listings with coding agents"
   homepage "https://github.com/raine/flea"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/raine/flea/releases/download/v0.1.0/flea-darwin-arm64.tar.gz"
-      sha256 "606888ab920274492517cef800bbb94fb79ad8a6e5a05174209927c071892d6c"
+      url "https://github.com/raine/flea/releases/download/v0.1.1/flea-darwin-arm64.tar.gz"
+      sha256 "d3661c1fbd7c8fdd33cea661c0ce2f96227fd3d189051b1a2b2f6575c926e1f1"
     else
-      url "https://github.com/raine/flea/releases/download/v0.1.0/flea-darwin-amd64.tar.gz"
-      sha256 "80cf7bda3087ac02d08258c1267320fc09a505bdb7d7251fc61667e7d2bb874c"
+      url "https://github.com/raine/flea/releases/download/v0.1.1/flea-darwin-amd64.tar.gz"
+      sha256 "cca0fa97b83173e0cd62a295578a1b58c2278ce17deff0f86e735a3595f33f14"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/raine/flea/releases/download/v0.1.0/flea-linux-arm64.tar.gz"
-      sha256 "aab2678bf2751044a7040cfa82b7fb731bb08d7cb6a110d7b92ccec8932fc1e4"
+      url "https://github.com/raine/flea/releases/download/v0.1.1/flea-linux-arm64.tar.gz"
+      sha256 "7e245db2f9d711e0370ea105f6787224b930ca59e6ff9d643cffd90a5444b1fc"
     else
-      url "https://github.com/raine/flea/releases/download/v0.1.0/flea-linux-amd64.tar.gz"
-      sha256 "59eeac4868cc366b0b35526639a485018be22970daf2018c4884edf563b07035"
+      url "https://github.com/raine/flea/releases/download/v0.1.1/flea-linux-amd64.tar.gz"
+      sha256 "22c8b71674c92747a0a932f86daa8ef702f5dc9fd48a61d0ae78c3aef03b3aec"
     end
   end
 
